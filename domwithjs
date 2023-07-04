@@ -1,0 +1,7 @@
+var itemList=document.getElementById('items');
+//create a new <li> elemnt
+var newItem=document.createElement('li');
+//add new content to li
+newItem.textContent='New Item';
+//append new li elemt to parent ul
+itemList.appendChild(newItem);
